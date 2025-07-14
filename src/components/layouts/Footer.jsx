@@ -93,7 +93,7 @@ const Footer = () => {
               </ul>
             </div>
             <div className="">
-              <Heading text={"Company"} as={"h3"} className={"text-[#222222] font-normal text-lg pb-10"} />
+              <Heading text={"SHOP"} as={"h3"} className={"text-[#222222] font-normal text-lg pb-10"} />
               <ul>
                 <Link to={"/"}>
                   <li className="group relative font-normal text-sm text-[#222222] mb-[30px]">
@@ -107,7 +107,7 @@ const Footer = () => {
                 </Link>
                 <Link to={"/"}>
                   <li className="group relative font-normal text-sm text-[#222222] mb-[30px]">
-                    Careers
+                    Accessories
                     <span
                       className={
                         "block absolute bg-black w-0 h-[1.5px] bottom-[-3px] left-0- group-hover:w-7 transition-[width] ease-in-out duration-300"
@@ -117,7 +117,7 @@ const Footer = () => {
                 </Link>
                 <Link to={"/"}>
                   <li className="group relative font-normal text-sm text-[#222222] mb-[30px]">
-                    Affiliates
+                    Men
                     <span
                       className={
                         "block absolute bg-black w-0 h-[1.5px] bottom-[-3px] left-0- group-hover:w-7 transition-[width] ease-in-out duration-300"
@@ -127,7 +127,7 @@ const Footer = () => {
                 </Link>
                 <Link to={"/"}>
                   <li className="group relative font-normal text-sm text-[#222222] mb-[30px]">
-                    Blog
+                    Women
                     <span
                       className={
                         "block absolute bg-black w-0 h-[1.5px] bottom-[-3px] left-0- group-hover:w-7 transition-[width] ease-in-out duration-300"
@@ -137,7 +137,62 @@ const Footer = () => {
                 </Link>
                 <Link to={"/"}>
                   <li className="group relative font-normal text-sm text-[#222222]">
-                    Contact Us
+                    Shop All
+                    <span
+                      className={
+                        "block absolute bg-black w-0 h-[1.5px] bottom-[-3px] left-0- group-hover:w-7 transition-[width] ease-in-out duration-300"
+                      }
+                    ></span>
+                  </li>
+                </Link>
+              </ul>
+            </div>
+            <div className="">
+              <Heading text={"HELP"} as={"h3"} className={"text-[#222222] font-normal text-lg pb-10"} />
+              <ul>
+                <Link to={"/"}>
+                  <li className="group relative font-normal text-sm text-[#222222] mb-[30px]">
+                    Customer Service
+                    <span
+                      className={
+                        "block absolute bg-black w-0 h-[1.5px] bottom-[-3px] left-0- group-hover:w-7 transition-[width] ease-in-out duration-300"
+                      }
+                    ></span>
+                  </li>
+                </Link>
+                <Link to={"/"}>
+                  <li className="group relative font-normal text-sm text-[#222222] mb-[30px]">
+                    Accessories
+                    <span
+                      className={
+                        "block absolute bg-black w-0 h-[1.5px] bottom-[-3px] left-0- group-hover:w-7 transition-[width] ease-in-out duration-300"
+                      }
+                    ></span>
+                  </li>
+                </Link>
+                <Link to={"/"}>
+                  <li className="group relative font-normal text-sm text-[#222222] mb-[30px]">
+                    Men
+                    <span
+                      className={
+                        "block absolute bg-black w-0 h-[1.5px] bottom-[-3px] left-0- group-hover:w-7 transition-[width] ease-in-out duration-300"
+                      }
+                    ></span>
+                  </li>
+                </Link>
+                <Link to={"/"}>
+                  <li className="group relative font-normal text-sm text-[#222222] mb-[30px]">
+                    Women
+                    <span
+                      className={
+                        "block absolute bg-black w-0 h-[1.5px] bottom-[-3px] left-0- group-hover:w-7 transition-[width] ease-in-out duration-300"
+                      }
+                    ></span>
+                  </li>
+                </Link>
+                <Link to={"/"}>
+                  <li className="group relative font-normal text-sm text-[#222222]">
+                    Shop All
                     <span
                       className={
                         "block absolute bg-black w-0 h-[1.5px] bottom-[-3px] left-0- group-hover:w-7 transition-[width] ease-in-out duration-300"
