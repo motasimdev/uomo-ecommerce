@@ -26,109 +26,54 @@ const Footer = () => {
               </div>
             </div>
             <div className="">
-              <Heading text={"Company"} as={"h3"} className={""} />
+              <Heading text={"Company"} as={"h3"} className={"text-[#222222] font-normal text-lg"} />
               <ul>
                 <Link to={"/"}>
-                  <li className="group relative font-medium text-sm text-[#222222] uppercase">
+                  <li className="group relative font-normal text-sm text-[#222222]">
                     About Us
                     <span
                       className={
-                        "block absolute bg-black w-0 h-[2px] bottom-[-5px] left-0- group-hover:w-7 transition-[width] ease-in-out duration-300"
+                        "block absolute bg-black w-0 h-[1.5px] bottom-[-3px] left-0- group-hover:w-7 transition-[width] ease-in-out duration-300"
                       }
                     ></span>
                   </li>
                 </Link>
                 <Link to={"/"}>
-                  <li className="group relative font-medium text-sm text-[#222222] uppercase">
+                  <li className="group relative font-normal text-sm text-[#222222] ">
                     Careers
                     <span
                       className={
-                        "block absolute bg-black w-0 h-[2px] bottom-[-5px] left-0- group-hover:w-7 transition-[width] ease-in-out duration-300"
+                        "block absolute bg-black w-0 h-[1.5px] bottom-[-3px] left-0- group-hover:w-7 transition-[width] ease-in-out duration-300"
                       }
                     ></span>
                   </li>
                 </Link>
                 <Link to={"/"}>
-                  <li className="group relative font-medium text-sm text-[#222222] uppercase">
+                  <li className="group relative font-normal text-sm text-[#222222]">
                     Affiliates
                     <span
                       className={
-                        "block absolute bg-black w-0 h-[2px] bottom-[-5px] left-0- group-hover:w-7 transition-[width] ease-in-out duration-300"
+                        "block absolute bg-black w-0 h-[1.5px] bottom-[-3px] left-0- group-hover:w-7 transition-[width] ease-in-out duration-300"
                       }
                     ></span>
                   </li>
                 </Link>
                 <Link to={"/"}>
-                  <li className="group relative font-medium text-sm text-[#222222] uppercase">
+                  <li className="group relative font-normal text-sm text-[#222222]">
                     Blog
                     <span
                       className={
-                        "block absolute bg-black w-0 h-[2px] bottom-[-5px] left-0- group-hover:w-7 transition-[width] ease-in-out duration-300"
+                        "block absolute bg-black w-0 h-[1.5px] bottom-[-3px] left-0- group-hover:w-7 transition-[width] ease-in-out duration-300"
                       }
                     ></span>
                   </li>
                 </Link>
                 <Link to={"/"}>
-                  <li className="group relative font-medium text-sm text-[#222222] uppercase">
+                  <li className="group relative font-normal text-sm text-[#222222]">
                     Contact Us
                     <span
                       className={
-                        "block absolute bg-black w-0 h-[2px] bottom-[-5px] left-0- group-hover:w-7 transition-[width] ease-in-out duration-300"
-                      }
-                    ></span>
-                  </li>
-                </Link>
-              </ul>
-            </div>
-            <div className="">
-              <Heading text={"Shop"} as={"h3"} className={""} />
-              <ul>
-                <Link to={"/"}>
-                  <li className="group relative font-medium text-sm text-[#222222] uppercase">
-                    New Arrivals
-                    <span
-                      className={
-                        "block absolute bg-black w-0 h-[2px] bottom-[-5px] left-0- group-hover:w-7 transition-[width] ease-in-out duration-300"
-                      }
-                    ></span>
-                  </li>
-                </Link>
-                <Link to={"/"}>
-                  <li className="group relative font-medium text-sm text-[#222222] uppercase">
-                    Accessories
-                    <span
-                      className={
-                        "block absolute bg-black w-0 h-[2px] bottom-[-5px] left-0- group-hover:w-7 transition-[width] ease-in-out duration-300"
-                      }
-                    ></span>
-                  </li>
-                </Link>
-                <Link to={"/"}>
-                  <li className="group relative font-medium text-sm text-[#222222] uppercase">
-                    Men
-                    <span
-                      className={
-                        "block absolute bg-black w-0 h-[2px] bottom-[-5px] left-0- group-hover:w-7 transition-[width] ease-in-out duration-300"
-                      }
-                    ></span>
-                  </li>
-                </Link>
-                <Link to={"/"}>
-                  <li className="group relative font-medium text-sm text-[#222222] uppercase">
-                    Women
-                    <span
-                      className={
-                        "block absolute bg-black w-0 h-[2px] bottom-[-5px] left-0- group-hover:w-7 transition-[width] ease-in-out duration-300"
-                      }
-                    ></span>
-                  </li>
-                </Link>
-                <Link to={"/"}>
-                  <li className="group relative font-medium text-sm text-[#222222] uppercase">
-                    Shop All
-                    <span
-                      className={
-                        "block absolute bg-black w-0 h-[2px] bottom-[-5px] left-0- group-hover:w-7 transition-[width] ease-in-out duration-300"
+                        "block absolute bg-black w-0 h-[1.5px] bottom-[-3px] left-0- group-hover:w-7 transition-[width] ease-in-out duration-300"
                       }
                     ></span>
                   </li>
