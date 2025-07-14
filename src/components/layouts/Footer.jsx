@@ -5,6 +5,7 @@ import Flex from "../Flex";
 import Image from "../Image";
 import logo from "/src/assets/logo.png";
 import Heading from "../Heading";
+import { FaFacebookF, FaTwitter, FaInstagram,FaYoutube,FaPinterest } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -24,7 +25,16 @@ const Footer = () => {
                 <Heading text={"sale@uomo.com"} as={"h4"} className={""} />
                 <Heading text={"+1 246-345-0695"} as={"h4"} className={""} />
               </div>
+              <div className="flex items-center">
+                  <FaFacebookF/>
+                  <FaTwitter />
+                  <FaInstagram />
+                  <FaYoutube  />
+                  <FaPinterest  />
+              </div>
             </div>
+
+
             <div className="">
               <Heading text={"Company"} as={"h3"} className={"text-[#222222] font-normal text-lg pb-10"} />
               <ul>
