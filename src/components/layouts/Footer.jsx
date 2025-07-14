@@ -5,14 +5,20 @@ import Flex from "../Flex";
 import Image from "../Image";
 import logo from "/src/assets/logo.png";
 import Heading from "../Heading";
-import { FaFacebookF, FaTwitter, FaInstagram,FaYoutube,FaPinterest } from "react-icons/fa";
+import {
+  FaFacebookF,
+  FaTwitter,
+  FaInstagram,
+  FaYoutube,
+  FaPinterest,
+} from "react-icons/fa";
 
 const Footer = () => {
   return (
     <>
       <div className="bg-[#E4E4E4] pt-[100px] pb-[30px]">
         <Container>
-          <Flex>
+          <div className={"flex"}>
             <div className="">
               <Image src={logo} alt={"logo"} />
               <div className="mt-[50px]">
@@ -21,24 +27,39 @@ const Footer = () => {
                   as={"h4"}
                   className={"text-sm text-black font-normal"}
                 />
-                <Heading text={"United States"} as={"h4"} className={"text-sm text-black font-normal"} />
+                <Heading
+                  text={"United States"}
+                  as={"h4"}
+                  className={"text-sm text-black font-normal"}
+                />
                 <div className="mt-10 mb-[50px]">
-                  <Heading text={"sale@uomo.com"} as={"h4"} className={"text-sm text-black font-medium"} />
-                <Heading text={"+1 246-345-0695"} as={"h4"} className={"text-sm text-black font-medium"} />
+                  <Heading
+                    text={"sale@uomo.com"}
+                    as={"h4"}
+                    className={"text-sm text-black font-medium"}
+                  />
+                  <Heading
+                    text={"+1 246-345-0695"}
+                    as={"h4"}
+                    className={"text-sm text-black font-medium"}
+                  />
                 </div>
               </div>
               <div className="flex items-center">
-                  <FaFacebookF className={"mr-7"}/>
-                  <FaTwitter className={"mr-7"}/>
-                  <FaInstagram className={"mr-7"}/>
-                  <FaYoutube  className={"mr-7"}/>
-                  <FaPinterest/>
+                <FaFacebookF className={"mr-7"} />
+                <FaTwitter className={"mr-7"} />
+                <FaInstagram className={"mr-7"} />
+                <FaYoutube className={"mr-7"} />
+                <FaPinterest />
               </div>
             </div>
 
-
             <div className="">
-              <Heading text={"Company"} as={"h3"} className={"text-[#222222] font-normal text-lg pb-10"} />
+              <Heading
+                text={"Company"}
+                as={"h3"}
+                className={"text-[#222222] font-normal text-lg pb-10 uppercase"}
+              />
               <ul>
                 <Link to={"/"}>
                   <li className="group relative font-normal text-sm text-[#222222] mb-[30px]">
@@ -92,8 +113,13 @@ const Footer = () => {
                 </Link>
               </ul>
             </div>
+
             <div className="">
-              <Heading text={"SHOP"} as={"h3"} className={"text-[#222222] font-normal text-lg pb-10"} />
+              <Heading
+                text={"SHOP"}
+                as={"h3"}
+                className={"text-[#222222] font-normal text-lg pb-10"}
+              />
               <ul>
                 <Link to={"/"}>
                   <li className="group relative font-normal text-sm text-[#222222] mb-[30px]">
@@ -147,8 +173,13 @@ const Footer = () => {
                 </Link>
               </ul>
             </div>
+
             <div className="">
-              <Heading text={"HELP"} as={"h3"} className={"text-[#222222] font-normal text-lg pb-10"} />
+              <Heading
+                text={"HELP"}
+                as={"h3"}
+                className={"text-[#222222] font-normal text-lg pb-10"}
+              />
               <ul>
                 <Link to={"/"}>
                   <li className="group relative font-normal text-sm text-[#222222] mb-[30px]">
@@ -162,7 +193,7 @@ const Footer = () => {
                 </Link>
                 <Link to={"/"}>
                   <li className="group relative font-normal text-sm text-[#222222] mb-[30px]">
-                    Accessories
+                    My Account
                     <span
                       className={
                         "block absolute bg-black w-0 h-[1.5px] bottom-[-3px] left-0- group-hover:w-7 transition-[width] ease-in-out duration-300"
@@ -172,7 +203,7 @@ const Footer = () => {
                 </Link>
                 <Link to={"/"}>
                   <li className="group relative font-normal text-sm text-[#222222] mb-[30px]">
-                    Men
+                    Find a Store
                     <span
                       className={
                         "block absolute bg-black w-0 h-[1.5px] bottom-[-3px] left-0- group-hover:w-7 transition-[width] ease-in-out duration-300"
@@ -182,7 +213,7 @@ const Footer = () => {
                 </Link>
                 <Link to={"/"}>
                   <li className="group relative font-normal text-sm text-[#222222] mb-[30px]">
-                    Women
+                    Legal & Privacy
                     <span
                       className={
                         "block absolute bg-black w-0 h-[1.5px] bottom-[-3px] left-0- group-hover:w-7 transition-[width] ease-in-out duration-300"
@@ -191,8 +222,18 @@ const Footer = () => {
                   </li>
                 </Link>
                 <Link to={"/"}>
-                  <li className="group relative font-normal text-sm text-[#222222]">
-                    Shop All
+                  <li className="group relative font-normal text-sm text-[#222222] mb-[30px]">
+                    Contact
+                    <span
+                      className={
+                        "block absolute bg-black w-0 h-[1.5px] bottom-[-3px] left-0- group-hover:w-7 transition-[width] ease-in-out duration-300"
+                      }
+                    ></span>
+                  </li>
+                </Link>
+                <Link to={"/"}>
+                  <li className="group relative font-normal text-sm text-[#222222] mb-[30px]">
+                    Gift Card
                     <span
                       className={
                         "block absolute bg-black w-0 h-[1.5px] bottom-[-3px] left-0- group-hover:w-7 transition-[width] ease-in-out duration-300"
@@ -202,7 +243,40 @@ const Footer = () => {
                 </Link>
               </ul>
             </div>
-          </Flex>
+
+            <div className="">
+              <div className="">
+                <Heading
+                  text={"SUBSCRIBE"}
+                  as={"h4"}
+                  className={"text-[#212529] font-normal text-lg pb-10"}
+                />
+                
+                <div className="mt-[40px]">
+                  <Heading
+                    text={"Be the first to get the latest news about trends,"}
+                    as={"h4"}
+                    className={"text-sm text-[#767676] font-normal"}
+                  />
+                  <Heading
+                    text={"promotions, and much more!"}
+                    as={"h4"}
+                    className={"text-sm text-[#767676] font-normal"}
+                  />
+                </div>
+              </div>
+              <div className="">
+                <input type="email" name="footerEmail" id="" placeholder="Your email address" />
+              </div>
+              <div className="flex items-center">
+                <FaFacebookF className={"mr-7"} />
+                <FaTwitter className={"mr-7"} />
+                <FaInstagram className={"mr-7"} />
+                <FaYoutube className={"mr-7"} />
+                <FaPinterest />
+              </div>
+            </div>
+          </div>
         </Container>
       </div>
     </>
