@@ -92,6 +92,61 @@ const Footer = () => {
                 </Link>
               </ul>
             </div>
+            <div className="">
+              <Heading text={"Company"} as={"h3"} className={"text-[#222222] font-normal text-lg pb-10"} />
+              <ul>
+                <Link to={"/"}>
+                  <li className="group relative font-normal text-sm text-[#222222] mb-[30px]">
+                    New Arrivals
+                    <span
+                      className={
+                        "block absolute bg-black w-0 h-[1.5px] bottom-[-3px] left-0- group-hover:w-7 transition-[width] ease-in-out duration-300"
+                      }
+                    ></span>
+                  </li>
+                </Link>
+                <Link to={"/"}>
+                  <li className="group relative font-normal text-sm text-[#222222] mb-[30px]">
+                    Careers
+                    <span
+                      className={
+                        "block absolute bg-black w-0 h-[1.5px] bottom-[-3px] left-0- group-hover:w-7 transition-[width] ease-in-out duration-300"
+                      }
+                    ></span>
+                  </li>
+                </Link>
+                <Link to={"/"}>
+                  <li className="group relative font-normal text-sm text-[#222222] mb-[30px]">
+                    Affiliates
+                    <span
+                      className={
+                        "block absolute bg-black w-0 h-[1.5px] bottom-[-3px] left-0- group-hover:w-7 transition-[width] ease-in-out duration-300"
+                      }
+                    ></span>
+                  </li>
+                </Link>
+                <Link to={"/"}>
+                  <li className="group relative font-normal text-sm text-[#222222] mb-[30px]">
+                    Blog
+                    <span
+                      className={
+                        "block absolute bg-black w-0 h-[1.5px] bottom-[-3px] left-0- group-hover:w-7 transition-[width] ease-in-out duration-300"
+                      }
+                    ></span>
+                  </li>
+                </Link>
+                <Link to={"/"}>
+                  <li className="group relative font-normal text-sm text-[#222222]">
+                    Contact Us
+                    <span
+                      className={
+                        "block absolute bg-black w-0 h-[1.5px] bottom-[-3px] left-0- group-hover:w-7 transition-[width] ease-in-out duration-300"
+                      }
+                    ></span>
+                  </li>
+                </Link>
+              </ul>
+            </div>
           </Flex>
         </Container>
       </div>
