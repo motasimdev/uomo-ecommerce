@@ -9,7 +9,7 @@ import Heading from "../Heading";
 const Footer = () => {
   return (
     <>
-      <div className="">
+      <div className="bg-[#E4E4E4] pt-[100px] pb-[30px]">
         <Container>
           <Flex>
             <div className="">
@@ -26,10 +26,10 @@ const Footer = () => {
               </div>
             </div>
             <div className="">
-              <Heading text={"Company"} as={"h3"} className={"text-[#222222] font-normal text-lg"} />
+              <Heading text={"Company"} as={"h3"} className={"text-[#222222] font-normal text-lg pb-10"} />
               <ul>
                 <Link to={"/"}>
-                  <li className="group relative font-normal text-sm text-[#222222]">
+                  <li className="group relative font-normal text-sm text-[#222222] pb-[30px]">
                     About Us
                     <span
                       className={
@@ -39,7 +39,7 @@ const Footer = () => {
                   </li>
                 </Link>
                 <Link to={"/"}>
-                  <li className="group relative font-normal text-sm text-[#222222] ">
+                  <li className="group relative font-normal text-sm text-[#222222] pb-[30px]">
                     Careers
                     <span
                       className={
@@ -49,7 +49,7 @@ const Footer = () => {
                   </li>
                 </Link>
                 <Link to={"/"}>
-                  <li className="group relative font-normal text-sm text-[#222222]">
+                  <li className="group relative font-normal text-sm text-[#222222] pb-[30px]">
                     Affiliates
                     <span
                       className={
@@ -59,7 +59,7 @@ const Footer = () => {
                   </li>
                 </Link>
                 <Link to={"/"}>
-                  <li className="group relative font-normal text-sm text-[#222222]">
+                  <li className="group relative font-normal text-sm text-[#222222] pb-[30px]">
                     Blog
                     <span
                       className={
