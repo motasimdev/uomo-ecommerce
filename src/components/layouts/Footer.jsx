@@ -15,22 +15,24 @@ const Footer = () => {
           <Flex>
             <div className="">
               <Image src={logo} alt={"logo"} />
-              <div className="">
+              <div className="mt-[50px]">
                 <Heading
                   text={"1418 River Drive, Suite 35 Cottonhall, CA 9622"}
                   as={"h4"}
-                  className={""}
+                  className={"text-sm text-black font-normal"}
                 />
-                <Heading text={"United States"} as={"h4"} className={""} />
-                <Heading text={"sale@uomo.com"} as={"h4"} className={""} />
-                <Heading text={"+1 246-345-0695"} as={"h4"} className={""} />
+                <Heading text={"United States"} as={"h4"} className={"text-sm text-black font-normal"} />
+                <div className="mt-10 mb-[50px]">
+                  <Heading text={"sale@uomo.com"} as={"h4"} className={"text-sm text-black font-medium"} />
+                <Heading text={"+1 246-345-0695"} as={"h4"} className={"text-sm text-black font-medium"} />
+                </div>
               </div>
               <div className="flex items-center">
-                  <FaFacebookF/>
-                  <FaTwitter />
-                  <FaInstagram />
-                  <FaYoutube  />
-                  <FaPinterest  />
+                  <FaFacebookF className={"mr-7"}/>
+                  <FaTwitter className={"mr-7"}/>
+                  <FaInstagram className={"mr-7"}/>
+                  <FaYoutube  className={"mr-7"}/>
+                  <FaPinterest/>
               </div>
             </div>
 
@@ -39,7 +41,7 @@ const Footer = () => {
               <Heading text={"Company"} as={"h3"} className={"text-[#222222] font-normal text-lg pb-10"} />
               <ul>
                 <Link to={"/"}>
-                  <li className="group relative font-normal text-sm text-[#222222] pb-[30px]">
+                  <li className="group relative font-normal text-sm text-[#222222] mb-[30px]">
                     About Us
                     <span
                       className={
@@ -49,7 +51,7 @@ const Footer = () => {
                   </li>
                 </Link>
                 <Link to={"/"}>
-                  <li className="group relative font-normal text-sm text-[#222222] pb-[30px]">
+                  <li className="group relative font-normal text-sm text-[#222222] mb-[30px]">
                     Careers
                     <span
                       className={
@@ -59,7 +61,7 @@ const Footer = () => {
                   </li>
                 </Link>
                 <Link to={"/"}>
-                  <li className="group relative font-normal text-sm text-[#222222] pb-[30px]">
+                  <li className="group relative font-normal text-sm text-[#222222] mb-[30px]">
                     Affiliates
                     <span
                       className={
@@ -69,7 +71,7 @@ const Footer = () => {
                   </li>
                 </Link>
                 <Link to={"/"}>
-                  <li className="group relative font-normal text-sm text-[#222222] pb-[30px]">
+                  <li className="group relative font-normal text-sm text-[#222222] mb-[30px]">
                     Blog
                     <span
                       className={
