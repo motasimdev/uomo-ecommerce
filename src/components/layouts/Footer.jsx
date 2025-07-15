@@ -19,7 +19,7 @@ const Footer = () => {
     <>
       <div className="bg-[#E4E4E4] pt-[100px] pb-[30px]">
         <Container>
-          <div className={"flex"}>
+          <div className={"flex justify-between"}>
             <div className="">
               <Image src={logo} alt={"logo"} />
               <div className="mt-[50px]">
