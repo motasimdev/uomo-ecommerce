@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 const Banner = () => {
   return (
     <>
-      <div className="bg-[url(/src/assets/bannerBg.png)] pt-[55px]">
+      <div className="bg-[url(/src/assets/bannerBg.png)] pt-[55px] mb-[55px]">
         <Container>
           <Flex>
             <div className="w-[65%]">
