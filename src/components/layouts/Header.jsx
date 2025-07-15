@@ -97,7 +97,7 @@ const Header = () => {
               </Link>
 
               <Link to={"/"}>
-                <CiHeart className={"w-5 h-5 text-[#222222]"} />
+                <CiHeart className={"w-5 h-5 text-[#222222] stroke-[0.5px]"} />
               </Link>
 
               <Link to={"/"}>

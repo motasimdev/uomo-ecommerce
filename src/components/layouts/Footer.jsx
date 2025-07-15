@@ -47,11 +47,11 @@ const Footer = () => {
                 </div>
               </div>
               <div className="flex items-center">
-                <FaFacebookF className={"mr-7"} />
-                <FaTwitter className={"mr-7"} />
-                <FaInstagram className={"mr-7"} />
-                <FaYoutube className={"mr-7"} />
-                <FaPinterest />
+                <FaFacebookF className={"mr-7 cursor-pointer"} />
+                <FaTwitter className={"mr-7 cursor-pointer"} />
+                <FaInstagram className={"mr-7 cursor-pointer"} />
+                <FaYoutube className={"mr-7 cursor-pointer"} />
+                <FaPinterest  className={"cursor-pointer"}/>
               </div>
             </div>
 
@@ -59,7 +59,7 @@ const Footer = () => {
               <Heading
                 text={"Company"}
                 as={"h3"}
-                className={"text-[#222222] font-normal text-lg pb-10 uppercase"}
+                className={"text-[#222222] font-medium text-lg pb-10 uppercase"}
               />
               <ul>
                 <Link to={"/"}>
@@ -119,7 +119,7 @@ const Footer = () => {
               <Heading
                 text={"SHOP"}
                 as={"h3"}
-                className={"text-[#222222] font-normal text-lg pb-10"}
+                className={"text-[#222222] font-medium text-lg pb-10"}
               />
               <ul>
                 <Link to={"/"}>
@@ -179,7 +179,7 @@ const Footer = () => {
               <Heading
                 text={"HELP"}
                 as={"h3"}
-                className={"text-[#222222] font-normal text-lg pb-10"}
+                className={"text-[#222222] font-medium text-lg pb-10"}
               />
               <ul>
                 <Link to={"/"}>
@@ -250,7 +250,7 @@ const Footer = () => {
                 <Heading
                   text={"SUBSCRIBE"}
                   as={"h4"}
-                  className={"text-[#212529] font-normal text-lg pb-10"}
+                  className={"text-[#212529] font-medium text-lg pb-10"}
                 />
                 
                 <div className="">
