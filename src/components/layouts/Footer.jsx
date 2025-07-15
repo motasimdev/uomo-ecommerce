@@ -4,6 +4,7 @@ import Container from "../Container";
 import Flex from "../Flex";
 import Image from "../Image";
 import logo from "/src/assets/logo.png";
+import footerImg from "/src/assets/image 20.png";
 import Heading from "../Heading";
 import {
   FaFacebookF,
@@ -252,7 +253,7 @@ const Footer = () => {
                   className={"text-[#212529] font-normal text-lg pb-10"}
                 />
                 
-                <div className="mt-[40px]">
+                <div className="">
                   <Heading
                     text={"Be the first to get the latest news about trends,"}
                     as={"h4"}
@@ -265,16 +266,17 @@ const Footer = () => {
                   />
                 </div>
               </div>
-              <div className="">
-                <input type="email" name="footerEmail" placeholder="Your email address" className={"py-[15px w-[100px]"}/>
-                <button className={""}></button>
+              <div className="relative mt-5 mb-12">
+                <input type="email" name="footerEmail" placeholder="Your email address" className={"py-[15px] pl-3 w-[330px]"}/>
+                <button className={"py-4 px-5 absolute right-0 top-0 z-20 cursor-pointer text-sm text-[#222222] font-medium"}>Join</button>
               </div>
-              <div className="flex items-center">
-                <FaFacebookF className={"mr-7"} />
-                <FaTwitter className={"mr-7"} />
-                <FaInstagram className={"mr-7"} />
-                <FaYoutube className={"mr-7"} />
-                <FaPinterest />
+              <div className="">
+                <Heading
+                    text={"Secure payments"}
+                    as={"h4"}
+                    className={"text-[15px] text-[#222222] font-medium pb-5"}
+                  />
+                  <Image src={footerImg} alt={"footerImg"}/>
               </div>
             </div>
           </div>
