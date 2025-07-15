@@ -256,17 +256,18 @@ const Footer = () => {
                   <Heading
                     text={"Be the first to get the latest news about trends,"}
                     as={"h4"}
-                    className={"text-sm text-[#767676] font-normal"}
+                    className={"text-sm text-[#212529] font-normal"}
                   />
                   <Heading
                     text={"promotions, and much more!"}
                     as={"h4"}
-                    className={"text-sm text-[#767676] font-normal"}
+                    className={"text-sm text-[#212529] font-normal"}
                   />
                 </div>
               </div>
               <div className="">
-                <input type="email" name="footerEmail" id="" placeholder="Your email address" />
+                <input type="email" name="footerEmail" placeholder="Your email address" className={"py-[15px w-[100px]"}/>
+                <button className={""}></button>
               </div>
               <div className="flex items-center">
                 <FaFacebookF className={"mr-7"} />
