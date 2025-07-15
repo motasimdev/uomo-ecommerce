@@ -33,7 +33,7 @@ const Banner = () => {
                   className={"text-[70px] text-[#222222] font-bold uppercase mt-[-15px]"}
                 />
               </div>    
-              <div className="group relative">
+              <div className="group relative w-[115px]">
                <Link to={"/"}>
                 <Heading
                   text={"DISCOVER MORE"}
