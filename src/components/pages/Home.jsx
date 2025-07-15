@@ -1,7 +1,7 @@
-import Container from "../Container"
-import Flex from "../Flex"
+
 import Banner from "../layouts/Banner"
 import Catagories from "../layouts/Catagories"
+import TrendyPrdcts from "../layouts/TrendyPrdcts"
 
 
 const Home = () => {
@@ -9,6 +9,7 @@ const Home = () => {
     <>
     <Banner/>
     <Catagories/>
+    <TrendyPrdcts/>
     </>
   )
 }
