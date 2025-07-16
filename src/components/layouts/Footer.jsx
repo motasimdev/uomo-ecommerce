@@ -13,7 +13,7 @@ import {
   FaYoutube,
   FaPinterest,
 } from "react-icons/fa";
-import { MdOutlineCopyright } from "react-icons/md";
+import { IoIosArrowUp } from "react-icons/io";
 
 const Footer = () => {
   return (
@@ -293,7 +293,7 @@ const Footer = () => {
             </div>
           </div>
           <span className={"block h-[1px] bg-[#CFCDCD]"}></span>
-          <Flex className={"mt-[40px] mb-[14px]"}>
+          <Flex className={"mt-[40px] mb-[14px] justify-between"}>
             <div className="">
               <Heading
                 text={"©2020 Uomo"}
@@ -301,8 +301,29 @@ const Footer = () => {
                 className={"text-sm text-[#222222] font-normal"}
               />
             </div>
-            <div className="flex">
-              
+            <div className="flex items-center">
+              <Heading
+                text={"Language"}
+                as={"h4"}
+                className={"text-sm text-[#767676] font-normal"}
+              />
+              <Heading
+                text={"United Kingdom  |  English"}
+                as={"h4"}
+                className={"text-sm text-[#222222] font-normal pl-[25px] pr-[15px]"}
+              />
+              <IoIosArrowUp className={"cursor-pointer"}/>
+              <Heading
+                text={"Currency"}
+                as={"h4"}
+                className={"text-sm text-[#767676] font-normal pl-[30px] pr-[20px]"}
+                />
+              <Heading
+                text={"USD"}
+                as={"h4"}
+                className={"text-sm text-[#222222] font-normal pr-[10px]"}
+                />
+                <IoIosArrowUp className={"cursor-pointer"}/>
             </div>
           </Flex>
         </Container>
