@@ -13,13 +13,14 @@ import {
   FaYoutube,
   FaPinterest,
 } from "react-icons/fa";
+import { MdOutlineCopyright } from "react-icons/md";
 
 const Footer = () => {
   return (
     <>
-      <div className="bg-[#E4E4E4] pt-[100px] pb-[30px]">
+      <div className="bg-[#E4E4E4] pt-[100px] pb-[14px]">
         <Container>
-          <div className={"flex justify-between"}>
+          <div className={"flex justify-between pb-[70px]"}>
             <div className="">
               <Image src={logo} alt={"logo"} />
               <div className="mt-[50px]">
@@ -51,7 +52,7 @@ const Footer = () => {
                 <FaTwitter className={"mr-7 cursor-pointer"} />
                 <FaInstagram className={"mr-7 cursor-pointer"} />
                 <FaYoutube className={"mr-7 cursor-pointer"} />
-                <FaPinterest  className={"cursor-pointer"}/>
+                <FaPinterest className={"cursor-pointer"} />
               </div>
             </div>
 
@@ -252,7 +253,7 @@ const Footer = () => {
                   as={"h4"}
                   className={"text-[#212529] font-medium text-lg pb-10"}
                 />
-                
+
                 <div className="">
                   <Heading
                     text={"Be the first to get the latest news about trends,"}
@@ -267,19 +268,43 @@ const Footer = () => {
                 </div>
               </div>
               <div className="relative mt-5 mb-12">
-                <input type="email" name="footerEmail" placeholder="Your email address" className={"py-[15px] pl-3 w-[330px]"}/>
-                <button className={"py-4 px-5 absolute right-0 top-0 z-20 cursor-pointer text-sm text-[#222222] font-medium"}>Join</button>
+                <input
+                  type="email"
+                  name="footerEmail"
+                  placeholder="Your email address"
+                  className={"py-[15px] pl-3 w-[330px]"}
+                />
+                <button
+                  className={
+                    "py-4 px-5 absolute right-0 top-0 z-20 cursor-pointer text-sm text-[#222222] font-medium"
+                  }
+                >
+                  Join
+                </button>
               </div>
               <div className="">
                 <Heading
-                    text={"Secure payments"}
-                    as={"h4"}
-                    className={"text-[15px] text-[#222222] font-medium pb-5"}
-                  />
-                  <Image src={footerImg} alt={"footerImg"}/>
+                  text={"Secure payments"}
+                  as={"h4"}
+                  className={"text-[15px] text-[#222222] font-medium pb-5"}
+                />
+                <Image src={footerImg} alt={"footerImg"} />
               </div>
             </div>
           </div>
+          <span className={"block h-[1px] bg-[#CFCDCD]"}></span>
+          <Flex className={"mt-[40px] mb-[14px]"}>
+            <div className="">
+              <Heading
+                text={"©2020 Uomo"}
+                as={"h4"}
+                className={"text-sm text-[#222222] font-normal"}
+              />
+            </div>
+            <div className="flex">
+              
+            </div>
+          </Flex>
         </Container>
       </div>
     </>
