@@ -183,11 +183,16 @@ const Footer = () => {
                 className={"text-[#222222] font-medium text-lg pb-10"}
               />
               <ul className={""}>
-                <Link to={"/"}>
-                  <li className="relative w-fit font-normal text-sm text-[#222222] mb-[30px] after:bg-[#222222] after:absolute after:h-[1.5px] after:w-0 after:bottom-0 after:left-0 after:translate-y-1 hover:after:w-7 after:transition-all ease-in-out after:duration-300">
+                <li className="mb-[30px]">
+                  <Link
+                    to={"/"}
+                    className={
+                      "relative w-fit font-normal text-sm text-[#222222] after:bg-[#222222] after:absolute after:h-[1.5px] after:w-0 after:bottom-0 after:left-0 after:translate-y-1 hover:after:w-7 after:transition-all ease-in-out after:duration-300"
+                    }
+                  >
                     Customer Service
-                  </li>
-                </Link>
+                  </Link>
+                </li>
                 <Link to={"/"}>
                   <li className="relative w-fit font-normal text-sm text-[#222222] mb-[30px] after:bg-[#222222] after:absolute after:h-[1.5px] after:w-0 after:bottom-0 after:left-0 after:translate-y-1 hover:after:w-7 after:transition-all ease-in-out after:duration-300">
                     My Account
@@ -280,20 +285,24 @@ const Footer = () => {
               <Heading
                 text={"United Kingdom  |  English"}
                 as={"h4"}
-                className={"text-sm text-[#222222] font-normal pl-[25px] pr-[15px]"}
+                className={
+                  "text-sm text-[#222222] font-normal pl-[25px] pr-[15px]"
+                }
               />
-              <IoIosArrowUp className={"cursor-pointer"}/>
+              <IoIosArrowUp className={"cursor-pointer"} />
               <Heading
                 text={"Currency"}
                 as={"h4"}
-                className={"text-sm text-[#767676] font-normal pl-[30px] pr-[20px]"}
-                />
+                className={
+                  "text-sm text-[#767676] font-normal pl-[30px] pr-[20px]"
+                }
+              />
               <Heading
                 text={"USD"}
                 as={"h4"}
                 className={"text-sm text-[#222222] font-normal pr-[10px]"}
-                />
-                <IoIosArrowUp className={"cursor-pointer"}/>
+              />
+              <IoIosArrowUp className={"cursor-pointer"} />
             </div>
           </Flex>
         </Container>
