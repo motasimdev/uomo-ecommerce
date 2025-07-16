@@ -21,22 +21,22 @@ const TrendyPrdcts = () => {
           <div className="pt-5 pb-5">
             <ul className={"flex gap-x-11"}>
               <Link to={"/"}>
-                <li className="relative text-base text-[#B5B5B5] font-medium uppercase after:bg-[#222222] after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-300 cursor-pointer">
+                <li className="relative text-base text-[#B5B5B5] font-medium uppercase hover:text-[#222222] after:bg-[#222222] after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-300">
                   All
                 </li>
               </Link>
               <Link to={"/"}>
-                <li className="relative text-base text-[#B5B5B5] font-medium uppercase after:bg-[#222222] after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all ease-in-out after:duration-300">
+                <li className="relative text-base text-[#B5B5B5] font-medium uppercase hover:text-[#222222] after:bg-[#222222] after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all ease-in-out after:duration-300">
                   NEWARRIVALS
                 </li>
               </Link>
               <Link to={"/"}>
-                <li className="relative text-base text-[#B5B5B5] font-medium uppercase after:bg-[#222222] after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-300 cursor-pointer">
+                <li className="relative text-base text-[#B5B5B5] font-medium uppercase hover:text-[#222222] after:bg-[#222222] after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-300 cursor-pointer">
                    BEST SELLER  
                 </li>
               </Link>
               <Link to={"/"}>
-                <li className="relative text-base text-[#B5B5B5] font-medium uppercase after:bg-[#222222] after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-300 cursor-pointer">
+                <li className="relative text-base text-[#B5B5B5] font-medium uppercase hover:text-[#222222] after:bg-[#222222] after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-300 cursor-pointer">
                   TOP RATING
                 </li>
               </Link>
