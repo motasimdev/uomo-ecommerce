@@ -55,6 +55,7 @@ const Footer = () => {
                 <FaPinterest className={"cursor-pointer"} />
               </div>
             </div>
+            {/* ======================= */}
 
             <div className="">
               <Heading
@@ -63,56 +64,57 @@ const Footer = () => {
                 className={"text-[#222222] font-medium text-lg pb-10 uppercase"}
               />
               <ul>
-                <Link to={"/"}>
-                  <li className="group relative font-normal text-sm text-[#222222] mb-[30px]">
-                    About Us
-                    <span
-                      className={
-                        "block absolute bg-black w-0 h-[1.5px] bottom-[-3px] left-0- group-hover:w-7 transition-[width] ease-in-out duration-300"
-                      }
-                    ></span>
-                  </li>
-                </Link>
-                <Link to={"/"}>
-                  <li className="group relative font-normal text-sm text-[#222222] mb-[30px]">
-                    Careers
-                    <span
-                      className={
-                        "block absolute bg-black w-0 h-[1.5px] bottom-[-3px] left-0- group-hover:w-7 transition-[width] ease-in-out duration-300"
-                      }
-                    ></span>
-                  </li>
-                </Link>
-                <Link to={"/"}>
-                  <li className="group relative font-normal text-sm text-[#222222] mb-[30px]">
+                <li className="mb-[30px]">
+                  <Link
+                    to={"/"}
+                    className={
+                      "relative pb-1 w-fit font-normal text-sm text-[#222222] after:bg-[#222222] after:content-[''] after:absolute after:h-[1.5px] after:w-0 after:bottom-0 after:left-0 hover:after:w-7 after:transition-all after:duration-300"
+                    }
+                  >
+                    About Us  
+                  </Link>
+                </li>
+                <li className="mb-[30px]">
+                  <Link
+                    to={"/"}
+                    className={
+                      "relative pb-1 w-fit font-normal text-sm text-[#222222] after:absolute after:bg-black after:content-[''] after:h-[2px] after:w-0 after:bottom-0 after:left-0 hover:after:w-7 after:transition-all after:duration-300 after:ease-in-out"
+                    }
+                  >
+                   Careers
+                  </Link>
+                </li>
+                <li className="mb-[30px]">
+                  <Link
+                    to={"/"}
+                    className={
+                      "relative pb-1 w-fit font-normal text-sm text-[#222222] after:bg-[#222222] after:content-[''] after:absolute after:h-[1.5px] after:w-0 after:bottom-0 after:left-0 hover:after:w-7 after:transition-all after:duration-300"
+                    }
+                  >
                     Affiliates
-                    <span
-                      className={
-                        "block absolute bg-black w-0 h-[1.5px] bottom-[-3px] left-0- group-hover:w-7 transition-[width] ease-in-out duration-300"
-                      }
-                    ></span>
-                  </li>
-                </Link>
-                <Link to={"/"}>
-                  <li className="group relative font-normal text-sm text-[#222222] mb-[30px]">
-                    Blog
-                    <span
-                      className={
-                        "block absolute bg-black w-0 h-[1.5px] bottom-[-3px] left-0- group-hover:w-7 transition-[width] ease-in-out duration-300"
-                      }
-                    ></span>
-                  </li>
-                </Link>
-                <Link to={"/"}>
-                  <li className="group relative font-normal text-sm text-[#222222]">
-                    Contact Us
-                    <span
-                      className={
-                        "block absolute bg-black w-0 h-[1.5px] bottom-[-3px] left-0- group-hover:w-7 transition-[width] ease-in-out duration-300"
-                      }
-                    ></span>
-                  </li>
-                </Link>
+                  </Link>
+                </li>
+                <li className="mb-[30px]">
+                  <Link
+                    to={"/"}
+                    className={
+                      "relative pb-1 w-fit font-normal text-sm text-[#222222] after:absolute after:bg-black after:h-[1.5px] after:w-0 after:bottom-0 after:left-0 hover:after:w-7 after:transition-all after:duration-300 after:ease-in-out"
+                    }
+                  >
+                  Blog
+                  </Link>
+                </li>
+                <li className="mb-[30px]">
+                  <Link
+                    to={"/"}
+                    className={
+                      "relative pb-1 w-fit font-normal text-sm text-[#222222] after:absolute after:bg-black after:h-[1.5px] after:w-0 after:bottom-0 after:left-0 hover:after:w-7 after:transition-all after:duration-300 after:ease-in-out"
+                    }
+                    >
+                      Contact Us
+                  </Link>
+                </li>
+               
               </ul>
             </div>
             {/* ==================== */}
@@ -138,7 +140,7 @@ const Footer = () => {
                   <Link
                     to={"/"}
                     className={
-                      "relative pb-1 w-fit font-normal text-sm text-[#222222] after:absolute after:bg-black after:h-[2px] after:w-0 after:bottom-0 after:left-0 hover:after:w-7 after:transition-all after:duration-300 after:ease-in-out"
+                      "relative pb-1 w-fit font-normal text-sm text-[#222222] after:absolute after:bg-black after:content-[''] after:h-[2px] after:w-0 after:bottom-0 after:left-0 hover:after:w-7 after:transition-all after:duration-300 after:ease-in-out"
                     }
                   >
                    Accessories
@@ -158,7 +160,7 @@ const Footer = () => {
                   <Link
                     to={"/"}
                     className={
-                      "relative pb-1 w-fit font-normal text-sm text-[#222222] after:absolute after:bg-black after:h-[2px] after:w-0 after:bottom-0 after:left-0 hover:after:w-7 after:transition-all after:duration-300 after:ease-in-out"
+                      "relative pb-1 w-fit font-normal text-sm text-[#222222] after:absolute after:bg-black after:h-[1.5px] after:w-0 after:bottom-0 after:left-0 hover:after:w-7 after:transition-all after:duration-300 after:ease-in-out"
                     }
                   >
                   Women
