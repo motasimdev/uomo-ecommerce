@@ -115,6 +115,7 @@ const Footer = () => {
                 </Link>
               </ul>
             </div>
+            {/* ==================== */}
 
             <div className="">
               <Heading
@@ -123,59 +124,60 @@ const Footer = () => {
                 className={"text-[#222222] font-medium text-lg pb-10"}
               />
               <ul>
-                <Link to={"/"}>
-                  <li className="group relative font-normal text-sm text-[#222222] mb-[30px]">
+                <li className="mb-[30px]">
+                  <Link
+                    to={"/"}
+                    className={
+                      "relative pb-1 w-fit font-normal text-sm text-[#222222] after:bg-[#222222] after:content-[''] after:absolute after:h-[1.5px] after:w-0 after:bottom-0 after:left-0 hover:after:w-7 after:transition-all after:duration-300"
+                    }
+                  >
                     New Arrivals
-                    <span
-                      className={
-                        "block absolute bg-black w-0 h-[1.5px] bottom-[-3px] left-0- group-hover:w-7 transition-[width] ease-in-out duration-300"
-                      }
-                    ></span>
-                  </li>
-                </Link>
-                <Link to={"/"}>
-                  <li className="group relative font-normal text-sm text-[#222222] mb-[30px]">
-                    Accessories
-                    <span
-                      className={
-                        "block absolute bg-black w-0 h-[1.5px] bottom-[-3px] left-0- group-hover:w-7 transition-[width] ease-in-out duration-300"
-                      }
-                    ></span>
-                  </li>
-                </Link>
-                <Link to={"/"}>
-                  <li className="group relative font-normal text-sm text-[#222222] mb-[30px]">
+                  </Link>
+                </li>
+                <li className="mb-[30px]">
+                  <Link
+                    to={"/"}
+                    className={
+                      "relative pb-1 w-fit font-normal text-sm text-[#222222] after:absolute after:bg-black after:h-[2px] after:w-0 after:bottom-0 after:left-0 hover:after:w-7 after:transition-all after:duration-300 after:ease-in-out"
+                    }
+                  >
+                   Accessories
+                  </Link>
+                </li>
+                <li className="mb-[30px]">
+                  <Link
+                    to={"/"}
+                    className={
+                      "relative pb-1 w-fit font-normal text-sm text-[#222222] after:bg-[#222222] after:content-[''] after:absolute after:h-[1.5px] after:w-0 after:bottom-0 after:left-0 hover:after:w-7 after:transition-all after:duration-300"
+                    }
+                  >
                     Men
-                    <span
-                      className={
-                        "block absolute bg-black w-0 h-[1.5px] bottom-[-3px] left-0- group-hover:w-7 transition-[width] ease-in-out duration-300"
-                      }
-                    ></span>
-                  </li>
-                </Link>
-                <Link to={"/"}>
-                  <li className="group relative font-normal text-sm text-[#222222] mb-[30px]">
-                    Women
-                    <span
-                      className={
-                        "block absolute bg-black w-0 h-[1.5px] bottom-[-3px] left-0- group-hover:w-7 transition-[width] ease-in-out duration-300"
-                      }
-                    ></span>
-                  </li>
-                </Link>
-                <Link to={"/"}>
-                  <li className="group relative font-normal text-sm text-[#222222]">
-                    Shop All
-                    <span
-                      className={
-                        "block absolute bg-black w-0 h-[1.5px] bottom-[-3px] left-0- group-hover:w-7 transition-[width] ease-in-out duration-300"
-                      }
-                    ></span>
-                  </li>
-                </Link>
+                  </Link>
+                </li>
+                <li className="mb-[30px]">
+                  <Link
+                    to={"/"}
+                    className={
+                      "relative pb-1 w-fit font-normal text-sm text-[#222222] after:absolute after:bg-black after:h-[2px] after:w-0 after:bottom-0 after:left-0 hover:after:w-7 after:transition-all after:duration-300 after:ease-in-out"
+                    }
+                  >
+                  Women
+                  </Link>
+                </li>
+                <li className="mb-[30px]">
+                  <Link
+                    to={"/"}
+                    className={
+                      "relative pb-1 w-fit font-normal text-sm text-[#222222] after:absolute after:bg-black after:h-[1.5px] after:w-0 after:bottom-0 after:left-0 hover:after:w-7 after:transition-all after:duration-300 after:ease-in-out"
+                    }
+                    >
+                      Shop All
+                  </Link>
+                </li>
+               
               </ul>
             </div>
-
+            {/* ==================== */}
             <div className="">
               <Heading
                 text={"HELP"}
@@ -193,31 +195,56 @@ const Footer = () => {
                     Customer Service
                   </Link>
                 </li>
-                <Link to={"/"}>
-                  <li className="relative w-fit font-normal text-sm text-[#222222] mb-[30px] after:bg-[#222222] after:absolute after:h-[1.5px] after:w-0 after:bottom-0 after:left-0 after:translate-y-1 hover:after:w-7 after:transition-all ease-in-out after:duration-300">
+                <li className="mb-[30px]">
+                  <Link
+                    to={"/"}
+                    className={
+                      "relative w-fit font-normal text-sm text-[#222222] after:bg-[#222222] after:absolute after:h-[1.5px] after:w-0 after:bottom-0 after:left-0 after:translate-y-1 hover:after:w-7 after:transition-all ease-in-out after:duration-300"
+                    }
+                  >
                     My Account
-                  </li>
-                </Link>
-                <Link to={"/"}>
-                  <li className="relative w-fit font-normal text-sm text-[#222222] mb-[30px] after:bg-[#222222] after:absolute after:h-[1.5px] after:w-0 after:bottom-0 after:left-0 after:translate-y-1 hover:after:w-7 after:transition-all ease-in-out after:duration-300">
+                  </Link>
+                </li>
+                <li className="mb-[30px]">
+                  <Link
+                    to={"/"}
+                    className={
+                      "relative pb-1 w-fit font-normal text-sm text-[#222222] after:bg-[#222222] after:content-[''] after:absolute  after:h-[1.5px] after:w-0 after:bottom-0 after:left-0 hover:after:w-7 after:transition-all ease-in-out after:duration-300"
+                    }
+                  >
                     Find a Store
-                  </li>
-                </Link>
-                <Link to={"/"}>
-                  <li className="relative w-fit font-normal text-sm text-[#222222] mb-[30px] after:bg-[#222222] after:absolute after:h-[1.5px] after:w-0 after:bottom-0 after:left-0 after:translate-y-1 hover:after:w-7 after:transition-all ease-in-out after:duration-300">
+                  </Link>
+                </li>
+                <li className="mb-[30px]">
+                  <Link
+                    to={"/"}
+                    className={
+                      "relative w-fit font-normal text-sm text-[#222222] after:bg-[#222222] after:absolute after:h-[1.5px] after:w-0 after:bottom-0 after:left-0 after:translate-y-1 hover:after:w-7 after:transition-all ease-in-out after:duration-300"
+                    }
+                  >
                     Legal & Privacy
-                  </li>
-                </Link>
-                <Link to={"/"}>
-                  <li className="relative w-fit font-normal text-sm text-[#222222] mb-[30px] after:bg-[#222222] after:absolute after:h-[1.5px] after:w-0 after:bottom-0 after:left-0 after:translate-y-1 hover:after:w-7 after:transition-all ease-in-out after:duration-300">
+                  </Link>
+                </li>
+                <li className="mb-[30px]">
+                  <Link
+                    to={"/"}
+                    className={
+                      "relative w-fit font-normal text-sm text-[#222222] after:bg-[#222222] after:absolute after:h-[1.5px] after:w-0 after:bottom-0 after:left-0 after:translate-y-1 hover:after:w-7 after:transition-all ease-in-out after:duration-300"
+                    }
+                  >
                     Contact
-                  </li>
-                </Link>
-                <Link to={"/"}>
-                  <li className="relative w-fit font-normal text-sm text-[#222222] mb-[30px] after:bg-[#222222] after:absolute after:h-[1.5px] after:w-0 after:bottom-0 after:left-0 after:translate-y-1 hover:after:w-7 after:transition-all ease-in-out after:duration-300">
+                  </Link>
+                </li>
+                <li className="mb-[30px]">
+                  <Link
+                    to={"/"}
+                    className={
+                      "relative w-fit font-normal text-sm text-[#222222] after:bg-[#222222] after:absolute after:h-[1.5px] after:w-0 after:bottom-0 after:left-0 after:translate-y-1 hover:after:w-7 after:transition-all ease-in-out after:duration-300"
+                    }
+                  >
                     Gift Card
-                  </li>
-                </Link>
+                  </Link>
+                </li>
               </ul>
             </div>
 
