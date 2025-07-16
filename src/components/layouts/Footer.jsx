@@ -182,65 +182,35 @@ const Footer = () => {
                 as={"h3"}
                 className={"text-[#222222] font-medium text-lg pb-10"}
               />
-              <ul>
+              <ul className={""}>
                 <Link to={"/"}>
-                  <li className="group relative font-normal text-sm text-[#222222] mb-[30px]">
+                  <li className="relative w-fit font-normal text-sm text-[#222222] mb-[30px] after:bg-[#222222] after:absolute after:h-[1.5px] after:w-0 after:bottom-0 after:left-0 after:translate-y-1 hover:after:w-7 after:transition-all ease-in-out after:duration-300">
                     Customer Service
-                    <span
-                      className={
-                        "block absolute bg-black w-0 h-[1.5px] bottom-[-3px] left-0- group-hover:w-7 transition-[width] ease-in-out duration-300"
-                      }
-                    ></span>
                   </li>
                 </Link>
                 <Link to={"/"}>
-                  <li className="group relative font-normal text-sm text-[#222222] mb-[30px]">
+                  <li className="relative w-fit font-normal text-sm text-[#222222] mb-[30px] after:bg-[#222222] after:absolute after:h-[1.5px] after:w-0 after:bottom-0 after:left-0 after:translate-y-1 hover:after:w-7 after:transition-all ease-in-out after:duration-300">
                     My Account
-                    <span
-                      className={
-                        "block absolute bg-black w-0 h-[1.5px] bottom-[-3px] left-0- group-hover:w-7 transition-[width] ease-in-out duration-300"
-                      }
-                    ></span>
                   </li>
                 </Link>
                 <Link to={"/"}>
-                  <li className="group relative font-normal text-sm text-[#222222] mb-[30px]">
+                  <li className="relative w-fit font-normal text-sm text-[#222222] mb-[30px] after:bg-[#222222] after:absolute after:h-[1.5px] after:w-0 after:bottom-0 after:left-0 after:translate-y-1 hover:after:w-7 after:transition-all ease-in-out after:duration-300">
                     Find a Store
-                    <span
-                      className={
-                        "block absolute bg-black w-0 h-[1.5px] bottom-[-3px] left-0- group-hover:w-7 transition-[width] ease-in-out duration-300"
-                      }
-                    ></span>
                   </li>
                 </Link>
                 <Link to={"/"}>
-                  <li className="group relative font-normal text-sm text-[#222222] mb-[30px]">
+                  <li className="relative w-fit font-normal text-sm text-[#222222] mb-[30px] after:bg-[#222222] after:absolute after:h-[1.5px] after:w-0 after:bottom-0 after:left-0 after:translate-y-1 hover:after:w-7 after:transition-all ease-in-out after:duration-300">
                     Legal & Privacy
-                    <span
-                      className={
-                        "block absolute bg-black w-0 h-[1.5px] bottom-[-3px] left-0- group-hover:w-7 transition-[width] ease-in-out duration-300"
-                      }
-                    ></span>
                   </li>
                 </Link>
                 <Link to={"/"}>
-                  <li className="group relative font-normal text-sm text-[#222222] mb-[30px]">
+                  <li className="relative w-fit font-normal text-sm text-[#222222] mb-[30px] after:bg-[#222222] after:absolute after:h-[1.5px] after:w-0 after:bottom-0 after:left-0 after:translate-y-1 hover:after:w-7 after:transition-all ease-in-out after:duration-300">
                     Contact
-                    <span
-                      className={
-                        "block absolute bg-black w-0 h-[1.5px] bottom-[-3px] left-0- group-hover:w-7 transition-[width] ease-in-out duration-300"
-                      }
-                    ></span>
                   </li>
                 </Link>
                 <Link to={"/"}>
-                  <li className="group relative font-normal text-sm text-[#222222] mb-[30px]">
+                  <li className="relative w-fit font-normal text-sm text-[#222222] mb-[30px] after:bg-[#222222] after:absolute after:h-[1.5px] after:w-0 after:bottom-0 after:left-0 after:translate-y-1 hover:after:w-7 after:transition-all ease-in-out after:duration-300">
                     Gift Card
-                    <span
-                      className={
-                        "block absolute bg-black w-0 h-[1.5px] bottom-[-3px] left-0- group-hover:w-7 transition-[width] ease-in-out duration-300"
-                      }
-                    ></span>
                   </li>
                 </Link>
               </ul>
