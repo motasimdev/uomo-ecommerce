@@ -2,6 +2,7 @@ import React from "react";
 import Container from "../Container";
 import Heading from "../Heading";
 import { Link } from "react-router-dom";
+import SinglePrdct from "../SinglePrdct";
 
 const TrendyPrdcts = () => {
   return (
@@ -18,8 +19,8 @@ const TrendyPrdcts = () => {
               PRODUCTS
             </h3>
           </div>
-          <div className="pt-5 pb-5">
-            <ul className={"flex gap-x-11"}>
+          <div className="w-[485px] pt-5 pb-3 m-auto">
+            <ul className={"flex justify-between"}>
               <Link to={"/"}>
                 <li className="relative text-base text-[#B5B5B5] font-medium uppercase hover:text-[#222222] after:bg-[#222222] after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-300">
                   All
@@ -41,6 +42,9 @@ const TrendyPrdcts = () => {
                 </li>
               </Link>
             </ul>
+          </div>
+          <div className="pb-2">
+            <SinglePrdct SinglePrdctclassName={"w-330px"}/>
           </div>
         </Container>
       </div>
