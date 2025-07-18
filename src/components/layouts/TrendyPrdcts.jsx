@@ -3,6 +3,7 @@ import Container from "../Container";
 import Heading from "../Heading";
 import { Link } from "react-router-dom";
 import SinglePrdct from "../SinglePrdct";
+import prdctOne from "/src/assets/product_1.jpg";
 
 const TrendyPrdcts = () => {
   return (
@@ -43,8 +44,8 @@ const TrendyPrdcts = () => {
               </Link>
             </ul>
           </div>
-          <div className="pb-2">
-            <SinglePrdct SinglePrdctclassName={"w-330px"}/>
+          <div className="pb-2 flex justify-between gap-x-2">
+            <SinglePrdct />
           </div>
         </Container>
       </div>
