@@ -5,6 +5,8 @@ import { Link } from "react-router-dom";
 import SinglePrdct from "../SinglePrdct";
 import prdctOne from "/src/assets/product_1.jpg";
 import prdctOne_1 from "/src/assets/product_1-1.jpg";
+import prdctTwo from "/src/assets/product_2.jpg";
+import prdctTwo_ from "/src/assets/product_2-1.jpg";
 
 const TrendyPrdcts = () => {
   return (
@@ -56,9 +58,9 @@ const TrendyPrdcts = () => {
               prodctPrize={"$29"}
             />
             <SinglePrdct
-              imgSrc={prdctOne}
+              imgSrc={prdctTwo}
               imgAlt={"product_1.jpg"}
-              imgHoverSrc={prdctOne_1}
+              imgHoverSrc={prdctTwo_}
               imgHoverAlt={"product_1-1.jpg"}
               prodctCtgry={"Dress"}
               prodctTitle={"Calvin Shorts"}
