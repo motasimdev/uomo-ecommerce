@@ -45,7 +45,7 @@ const TrendyPrdcts = () => {
             </ul>
           </div>
           <div className="pb-2 flex justify-between gap-x-2">
-            <SinglePrdct />
+            <SinglePrdct imgSrc={}/>
           </div>
         </Container>
       </div>

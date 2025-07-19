@@ -6,7 +6,7 @@ import prdctOne_1 from "/src/assets/product_1-1.jpg";
 import Heading from "./Heading";
 import { Link } from "react-router-dom";
 
-const SinglePrdct = ({ imgSrc, imgAlt, prodctTitle, prodctCtgry, prodctPrize }) => {
+const SinglePrdct = ({ imgSrc, imgHoverSrc, imgHoverAlt, imgAlt, prodctTitle, prodctCtgry, prodctPrize }) => {
   return (
     <>
       <div className={"group relative"}>
@@ -17,8 +17,8 @@ const SinglePrdct = ({ imgSrc, imgAlt, prodctTitle, prodctCtgry, prodctPrize }) 
             className={"w-[330px] h-[400px] object-cover"}
           />
           <Image
-            src={imgSrc}
-            alt={imgAlt}
+            src={imgHoverSrc}
+            alt={imgHoverAlt}
             className={
               "w-[330px] h-[400px] object-cover opacity-0 absolute top-0 left-0 group-hover:opacity-100 hover:transition transition-all duration-300"
             }
