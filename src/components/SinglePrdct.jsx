@@ -6,19 +6,19 @@ import prdctOne_1 from "/src/assets/product_1-1.jpg";
 import Heading from "./Heading";
 import { Link } from "react-router-dom";
 
-const SinglePrdct = ({ imgSrc, imgAlt, imgClassName, mainDivClassName }) => {
+const SinglePrdct = ({ imgSrc, imgAlt, prodctTitle, prodctCtgry, prodctPrize }) => {
   return (
     <>
       <div className={"group relative"}>
         <Link>
           <Image
-            src={prdctOne_O}
-            alt={"prdctOne_O"}
+            src={imgSrc}
+            alt={imgAlt}
             className={"w-[330px] h-[400px] object-cover"}
           />
           <Image
-            src={prdctOne_1}
-            alt={"prdctOne_O"}
+            src={imgSrc}
+            alt={imgAlt}
             className={
               "w-[330px] h-[400px] object-cover opacity-0 absolute top-0 left-0 group-hover:opacity-100 hover:transition transition-all duration-300"
             }
@@ -37,17 +37,17 @@ const SinglePrdct = ({ imgSrc, imgAlt, imgClassName, mainDivClassName }) => {
 
         <div className="">
           <Heading
-            text={"Dresses"}
+            text={prodctTitle}
             as={"p"}
             className={"text-[#767676] text-sm font-normal pt-5 pb-4"}
           />
           <Heading
-            text={"Cropped Faux Leather Jacket"}
+            text={prodctCtgry}
             as={"p"}
             className={"text-[#222222] text-base font-normal"}
           />
           <Heading
-            text={"$29"}
+            text={prodctPrize}
             as={"p"}
             className={"text-[#222222] text-base font-normal pt-2"}
           />
