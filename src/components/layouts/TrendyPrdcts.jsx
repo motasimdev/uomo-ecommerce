@@ -150,7 +150,7 @@ const TrendyPrdcts = () => {
               }
             />
           </div>
-          <div className="text-center mt-9 mb-12">
+          <div className="text-center mt-9 mb-5">
             <Link>
             <Heading text={"Discover More"} as={"h3"} className={"inline-block relative pb-1 text-[#222222] font-medium text-sm uppercase after:absolute after:left-0 after:bottom-0 after:bg-black after:h-0.5 after:w-[95px] after:hover:w-full hover:after:w-full after:transition-all ease-in-out after:duration-300"}/>
             </Link>
