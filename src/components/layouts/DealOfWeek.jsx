@@ -2,11 +2,13 @@ import React from "react";
 import Heading from "../Heading";
 import { Link } from "react-router-dom";
 import Container from "../Container";
+import Countdown from "react-countdown";
+import CountdownTimer from "../CountdownTimer";
 
 const DealOfWeek = () => {
   return (
     <>
-      <div className="bg-[url(/src/assets/deal_timer_bg.png)] bg-cover bg-center pt-[215px] pb-[45px]">
+      <div className="bg-[url(/src/assets/deal_timer_bg.png)] bg-cover bg-center bg-no-repeat pt-[215px] pb-[45px] mb-[50px]">
         <Container>
           <div className="flex items-center gap-x-3">
             <span className="block h-0.5 w-10 bg-[#C32929]"></span>
@@ -20,7 +22,7 @@ const DealOfWeek = () => {
             <Heading
               text={
                 <>
-                  Spring
+                  Spring{" "}
                   <span
                     className={
                       "text-[70px] text-[#222222] font-normal uppercase"
@@ -31,9 +33,7 @@ const DealOfWeek = () => {
                 </>
               }
               as={"h3"}
-              className={
-                "text-[70px] text-[#222222] font-bold uppercase mt-[-15px]"
-              }
+              className={"text-[70px] text-[#222222] font-bold uppercase py-10"}
             />
           </div>
           <div className="group relative w-[115px]">
@@ -47,6 +47,9 @@ const DealOfWeek = () => {
                 <span className="block absolute bottom-[0] left-[90px] bg-black w-0 h-[2px] group-hover:w-5 transition-[width] ease-in-out duration-300"></span>
               </span>
             </Link>
+          </div>
+          <div className="">
+            <CountdownTimer/>
           </div>
         </Container>
       </div>
