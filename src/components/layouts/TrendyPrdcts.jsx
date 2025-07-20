@@ -7,6 +7,10 @@ import prdctOne from "/src/assets/product_1.jpg";
 import prdctOne_1 from "/src/assets/product_1-1.jpg";
 import prdctTwo from "/src/assets/product_2.jpg";
 import prdctTwo_ from "/src/assets/product_2-1.jpg";
+import prdctThree from "/src/assets/product_3.jpg";
+import prdctThree_ from "/src/assets/product_3-1.jpg";
+import prdctFour from "/src/assets/product_4.jpg";
+import prdctFour_ from "/src/assets/product_4-1.jpg";
 
 const TrendyPrdcts = () => {
   return (
@@ -67,18 +71,63 @@ const TrendyPrdcts = () => {
               prodctPrize={"$62"}
             />
             <SinglePrdct
-              imgSrc={prdctOne}
+              imgSrc={prdctThree}
               imgAlt={"product_1.jpg"}
-              imgHoverSrc={prdctOne_1}
+              imgHoverSrc={prdctThree_}
               imgHoverAlt={"product_1-1.jpg"}
               prodctCtgry={"Dress"}
               prodctTitle={"Kirby T-Shirt"}
               prodctPrize={"$17"}
             />
             <SinglePrdct
+              imgSrc={prdctFour}
+              imgAlt={"product_1.jpg"}
+              imgHoverSrc={prdctFour_}
+              imgHoverAlt={"product_1-1.jpg"}
+              prodctCtgry={"Dress"}
+              prodctTitle={"Cableknit Shawl"}
+              prodctPrize={
+                <>
+                  <div className={"flex items-center gap-x-3"}>
+                    <span className={"line-through"}>$12</span>
+                    <p className={"text-red-800"}>$100</p>
+                  </div>
+                </>
+              }
+            />
+          </div>
+          <div className="pb-2 flex justify-between gap-x-2">
+            <SinglePrdct
               imgSrc={prdctOne}
               imgAlt={"product_1.jpg"}
               imgHoverSrc={prdctOne_1}
+              imgHoverAlt={"product_1-1.jpg"}
+              prodctCtgry={"Dress"}
+              prodctTitle={"Cropped Faux Leather Jacket"}
+              prodctPrize={"$29"}
+            />
+            <SinglePrdct
+              imgSrc={prdctTwo}
+              imgAlt={"product_1.jpg"}
+              imgHoverSrc={prdctTwo_}
+              imgHoverAlt={"product_1-1.jpg"}
+              prodctCtgry={"Dress"}
+              prodctTitle={"Calvin Shorts"}
+              prodctPrize={"$62"}
+            />
+            <SinglePrdct
+              imgSrc={prdctThree}
+              imgAlt={"product_1.jpg"}
+              imgHoverSrc={prdctThree_}
+              imgHoverAlt={"product_1-1.jpg"}
+              prodctCtgry={"Dress"}
+              prodctTitle={"Kirby T-Shirt"}
+              prodctPrize={"$17"}
+            />
+            <SinglePrdct
+              imgSrc={prdctFour}
+              imgAlt={"product_1.jpg"}
+              imgHoverSrc={prdctFour_}
               imgHoverAlt={"product_1-1.jpg"}
               prodctCtgry={"Dress"}
               prodctTitle={"Cableknit Shawl"}
