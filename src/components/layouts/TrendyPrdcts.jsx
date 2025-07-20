@@ -11,6 +11,14 @@ import prdctThree from "/src/assets/product_3.jpg";
 import prdctThree_ from "/src/assets/product_3-1.jpg";
 import prdctFour from "/src/assets/product_4.jpg";
 import prdctFour_ from "/src/assets/product_4-1.jpg";
+import prdctFive from "/src/assets/product_5.jpg";
+import prdctFive_ from "/src/assets/product_5-1.jpg";
+import prdctSix from "/src/assets/product_6.jpg";
+import prdctSix_ from "/src/assets/product_6-1.jpg";
+import prdctSeven from "/src/assets/product_7.jpg";
+import prdctSeven_ from "/src/assets/product_7-1.jpg";
+import prdctEight from "/src/assets/product_8.jpg";
+import prdctEight_ from "/src/assets/product_8-1.jpg";
 
 const TrendyPrdcts = () => {
   return (
@@ -96,38 +104,39 @@ const TrendyPrdcts = () => {
               }
             />
           </div>
-          <div className="pb-2 flex justify-between gap-x-2">
+
+          <div className="pb-2 pt-11 flex justify-between gap-x-2">                     
             <SinglePrdct
-              imgSrc={prdctOne}
+              imgSrc={prdctFive}
               imgAlt={"product_1.jpg"}
-              imgHoverSrc={prdctOne_1}
+              imgHoverSrc={prdctFive_}
               imgHoverAlt={"product_1-1.jpg"}
               prodctCtgry={"Dress"}
               prodctTitle={"Cropped Faux Leather Jacket"}
               prodctPrize={"$29"}
             />
             <SinglePrdct
-              imgSrc={prdctTwo}
+              imgSrc={prdctSix}
               imgAlt={"product_1.jpg"}
-              imgHoverSrc={prdctTwo_}
+              imgHoverSrc={prdctSix_}
               imgHoverAlt={"product_1-1.jpg"}
               prodctCtgry={"Dress"}
               prodctTitle={"Calvin Shorts"}
               prodctPrize={"$62"}
             />
             <SinglePrdct
-              imgSrc={prdctThree}
+              imgSrc={prdctSeven}
               imgAlt={"product_1.jpg"}
-              imgHoverSrc={prdctThree_}
+              imgHoverSrc={prdctSeven_}
               imgHoverAlt={"product_1-1.jpg"}
               prodctCtgry={"Dress"}
               prodctTitle={"Kirby T-Shirt"}
               prodctPrize={"$17"}
             />
             <SinglePrdct
-              imgSrc={prdctFour}
+              imgSrc={prdctEight}
               imgAlt={"product_1.jpg"}
-              imgHoverSrc={prdctFour_}
+              imgHoverSrc={prdctEight_}
               imgHoverAlt={"product_1-1.jpg"}
               prodctCtgry={"Dress"}
               prodctTitle={"Cableknit Shawl"}
@@ -140,6 +149,11 @@ const TrendyPrdcts = () => {
                 </>
               }
             />
+          </div>
+          <div className="text-center mt-9 mb-12">
+            <Link>
+            <Heading text={"Discover More"} as={"h3"} className={"inline-block relative pb-1 text-[#222222] font-medium text-sm uppercase after:absolute after:left-0 after:bottom-0 after:bg-black after:h-0.5 after:w-[95px] after:hover:w-full hover:after:w-full after:transition-all ease-in-out after:duration-300"}/>
+            </Link>
           </div>
         </Container>
       </div>
