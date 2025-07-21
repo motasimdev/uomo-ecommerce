@@ -7,11 +7,11 @@ const BannerTwo = () => {
     <>
     <div className="my-[50px]">
         <Container>
-            <Flex>
-                <div className="bg-[url(/src/assets/banner_1.jpg)] bg-center bg-cover bg-no-repeat pt-[240px] pb-[40px]">
-
+            <Flex className={"justify-between"}>
+                <div className="w-[49%] bg-[url(/src/assets/banner_1.jpg)] bg-center bg-cover bg-no-repeat pt-[240px] pb-[40px]">
+                    <p>afgasg</p>
                 </div>
-                <div className="bg-[url(/src/assets/banner_1.jpg)] bg-center bg-cover bg-no-repeat pt-[240px] pb-[40px]"></div>
+                <div className="w-[49%] bg-[url(/src/assets/banner_1.jpg)] bg-center bg-cover bg-no-repeat pt-[240px] pb-[40px]"></div>
             </Flex>
         </Container>
     </div>
