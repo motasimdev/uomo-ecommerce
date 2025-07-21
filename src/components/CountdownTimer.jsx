@@ -13,7 +13,7 @@ const CountdownTimer = () => {
           return <CompletionMessage />;
         } else {
           return (
-            <div className="flex gap-6 text-center">
+            <div className="flex gap-5 text-center">
               <div className="">
                 <div className="text-3xl font-normal text-black">{days}</div>
                 <div className="text-base text-[#767676] font-bold uppercase">Days</div>
