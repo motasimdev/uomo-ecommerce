@@ -10,9 +10,7 @@ const SinglePrdct = ({
   imgAlt,
   prodctTitle,
   prodctCtgry,
-  DelProdctPrize,
   prodctPrize,
-  className,
 }) => {
   return (
     <>
