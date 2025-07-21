@@ -33,17 +33,13 @@ const Banner = () => {
                   className={"text-[70px] text-[#222222] font-bold uppercase mt-[-15px]"}
                 />
               </div>    
-              <div className="group relative w-[115px]">
+              <div className="w-fit">
                <Link to={"/"}>
                 <Heading
                   text={"DISCOVER MORE"}
                   as={"p"}
-                  className={"text-sm text-[#222222] font-medium uppercase"}
+                  className={"relative pb-[5px] text-sm text-[#222222] font-medium uppercase after:absolute after:left-0 after:bottom-0 after:w-[70px] after:h-[2px] after:bg-black hover:after:w-full after:transition-all ease-in-out after:duration-300"}
                 />
-                <span className="block absolute bottom-[-5px] left-0 bg-black w-[90px] h-[2px]">
-
-                <span className="block absolute bottom-[0] left-[90px] bg-black w-0 h-[2px] group-hover:w-5 transition-[width] ease-in-out duration-300"></span>
-                </span>
                </Link>
               </div>
             </div>

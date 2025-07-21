@@ -7,15 +7,33 @@ const CountdownTimer = () => {
   return (
     <>
       <Countdown
-      date={Date.now() + 10000} // এখন থেকে ১০ সেকেন্ড
-      renderer={({ minutes, seconds, completed }) => {
+      date={Date.now() + 5 * 24 * 60 * 60 * 1000} // এখন থেকে ১০ সেকেন্ড
+      renderer={({ days, hours, minutes, seconds, completed }) => {
         if (completed) {
           return <CompletionMessage />;
         } else {
           return (
-            <span className="text-2xl font-semibold">
-              ⏳ {minutes}:{seconds < 10 ? `0${seconds}` : seconds} মিনিট বাকি
-            </span>
+            <div className="flex gap-6 text-center">
+              <div className="">
+                <div className="text-3xl font-normal text-black">{days}</div>
+                <div className="text-base text-[#767676] font-bold uppercase">Days</div>
+              </div>
+                <span className="text-3xl font-normal text-black">:</span>
+              <div className="">
+                <div className="text-3xl font-normal text-black">{hours}</div>
+                <div className="text-base text-[#767676] font-bold uppercase">Hours</div>
+              </div>
+                <span className="text-3xl font-normal text-black">:</span>
+              <div className="">
+                <div className="text-3xl font-normal text-black">{minutes}</div>
+                <div className="text-base text-[#767676] font-bold uppercase">Mins</div>
+              </div>
+                <span className="text-3xl font-normal text-black">:</span>
+              <div className="">
+                <div className="text-3xl font-normal text-black">{seconds}</div>
+                <div className="text-base text-[#767676] font-bold uppercase">sec</div>
+              </div>
+            </div>
           );
         }
       }}

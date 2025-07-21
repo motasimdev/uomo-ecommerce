@@ -25,16 +25,13 @@ const Catagories = () => {
                   </span>
                   COLLECTION
                 </h3>
-                <div className="group relative mt-2 w-[82px]">
+                <div className="mt-2 w-fit">
                   <Link to={"/"}>
                     <Heading
                       text={"SHOP NOW"}
                       as={"p"}
-                      className={"text-sm text-[#222222] font-medium uppercase"}
+                      className={"relative pb-[5px] text-sm text-[#222222] font-medium uppercase after:absolute after:left-0 after:bottom-0 after:w-[55px] after:h-[2px] after:bg-black hover:after:w-full after:transition-all ease-in-out after:duration-300"}
                     />
-                    <span className="block absolute bottom-[-5px] left-0 bg-black w-[55px] h-[2px]">
-                      <span className="block absolute bottom-0 left-[55px] bg-black w-0 h-[2px] group-hover:w-6 transition-[width] ease-in-out duration-300"></span>
-                    </span>
                   </Link>
                 </div>
               </div>
@@ -51,18 +48,15 @@ const Catagories = () => {
                     </span>
                     COLLECTION
                   </h3>
-                  <div className="group relative mt-2 w-[82px]">
+                  <div className="mt-2 w-fit">
                     <Link to={"/"}>
                       <Heading
                         text={"SHOP NOW"}
                         as={"p"}
                         className={
-                          "text-sm text-[#222222] font-medium uppercase"
+                          "relative pb-[5px] text-sm text-[#222222] font-medium uppercase after:absolute after:left-0 after:bottom-0 after:w-[55px] after:h-[2px] after:bg-black hover:after:w-full after:transition-all ease-in-out after:duration-300"
                         }
                       />
-                      <span className="block absolute bottom-[-5px] left-0 bg-black w-[55px] h-[2px]">
-                        <span className="block absolute bottom-0 left-[55px] bg-black w-0 h-[2px] group-hover:w-6 transition-[width] ease-in-out duration-300"></span>
-                      </span>
                     </Link>
                   </div>
                 </div>
@@ -81,18 +75,15 @@ const Catagories = () => {
                     </span>
                     COLLECTION
                   </h3>
-                  <div className="group relative mt-2 w-[82px]">
+                  <div className="mt-2 w-fit">
                     <Link to={"/"}>
                       <Heading
                         text={"SHOP NOW"}
                         as={"p"}
                         className={
-                          "text-sm text-[#222222] font-medium uppercase"
+                          "relative pb-[5px] text-sm text-[#222222] font-medium uppercase after:absolute after:left-0 after:bottom-0 after:w-[55px] after:h-[2px] after:bg-black hover:after:w-full after:transition-all ease-in-out after:duration-300"
                         }
                       />
-                      <span className="block absolute bottom-[-5px] left-0 bg-black w-[55px] h-[2px]">
-                        <span className="block absolute bottom-0 left-[55px] bg-black w-0 h-[2px] group-hover:w-6 transition-[width] ease-in-out duration-300"></span>
-                      </span>
                     </Link>
                   </div>
                 </div>
@@ -111,18 +102,15 @@ const Catagories = () => {
                       CARDS
                     </h3>
                     <Heading text={"Surprise someone with the gift they really want."} as={"h4"} className={"w-[215px] my-4 leading-6 text-sm text-[#222222] font-normal"} />
-                    <div className="group relative mt-2 w-[82px]">
+                    <div className="mt-2 w-fit">
                       <Link to={"/"}>
                         <Heading
                           text={"SHOP NOW"}
                           as={"p"}
                           className={
-                            "text-sm text-[#222222] font-medium uppercase"
+                            "relative pb-[5px] text-sm text-[#222222] font-medium uppercase after:absolute after:left-0 after:bottom-0 after:w-[55px] after:h-[2px] after:bg-black hover:after:w-full after:transition-all ease-in-out after:duration-300"
                           }
                         />
-                        <span className="block absolute bottom-[-5px] left-0 bg-black w-[55px] h-[2px]">
-                          <span className="block absolute bottom-0 left-[55px] bg-black w-0 h-[2px] group-hover:w-6 transition-[width] ease-in-out duration-300"></span>
-                        </span>
                       </Link>
                     </div>
                   </div>
