@@ -11,7 +11,9 @@ const Service = () => {
         <Container>
           <Flex>
             <div className="text-center">
-              <IconCart />
+              
+                <IconCart/>
+              
               <Heading
                 text={"FAST AND FREE DELIVERY"}
                 as={"h4"}

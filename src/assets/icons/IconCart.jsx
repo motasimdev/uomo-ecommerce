@@ -1,8 +1,8 @@
 import React from "react";
 
-const IconCart = () => {
+const IconCart = ({className}) => {
   return (
-    <div>
+    <div className={`${className}`}>
       <svg
         width="46"
         height="52"
