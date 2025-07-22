@@ -2,6 +2,7 @@ import React from "react";
 import Image from "./Image";
 import Heading from "./Heading";
 import { Link } from "react-router-dom";
+import { CiHeart } from "react-icons/ci";
 
 const SinglePrdct = ({
   imgSrc,
@@ -41,11 +42,16 @@ const SinglePrdct = ({
         </Link>
 
         <div className="">
-          <Heading
+          <div className="flex items-center justify-between">
+            <Heading
             text={prodctCtgry}
             as={"p"}
             className={"text-[#767676] text-sm font-normal pt-5 pb-4"}
-          />
+            />
+            <Link>
+            <CiHeart className={"text-[#767676] text-2xl font-bold"}/>
+            </Link>
+          </div>
           <Heading
             text={prodctTitle}
             as={"p"}
