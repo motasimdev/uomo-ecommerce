@@ -11,7 +11,7 @@ import Heading from "../Heading";
 const LimitedAddition = () => {
   return (
     <>
-      <div className="my-[50px]">
+      <div className="py-[50px]">
         <Container>
           <div className="flex items-center gap-x-2 justify-center mb-10">
             <Heading
@@ -54,7 +54,10 @@ const LimitedAddition = () => {
               imgAlt={"product-3+-1.jpg"}
               prodctCtgry={"Dresses"}
               prodctTitle={"Hub Accent Mirror"}
-              prodctPrize={"$29"}
+              prodctPrize={<>
+              $129
+              
+              </>}
             />
           </Flex>
         </Container>

@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 const BannerTwo = () => {
   return (
     <>
-      <div className="my-[50px]">
+      <div className="py-[50px]">
         <Container>
           <Flex className={"justify-between"}>
             <div className="w-[49%] pl-11 bg-[url(/src/assets/banner_1.jpg)] bg-center bg-cover bg-no-repeat pt-[240px] pb-[40px]">
