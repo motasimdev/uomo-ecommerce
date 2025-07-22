@@ -3,7 +3,10 @@ import Container from "../Container";
 import Flex from "../Flex";
 import { Link } from "react-router-dom";
 import Image from "../Image";
-import instaOne from "/src/assets/insta1.jpg";
+import instaOne from "/src/assets/insta2.jpg";
+import instaTwo from "/src/assets/insta5.jpg";
+import instaThree from "/src/assets/insta9.jpg";
+import instaFour from "/src/assets/insta12.jpg";
 import Heading from "../Heading";
 
 const Instagram = () => {
@@ -32,7 +35,27 @@ const Instagram = () => {
             <li className="relative group">
               <Link>
                 <Image
-                  src={instaOne}
+                  src={instaTwo}
+                  alt={"insta1.jpg"}
+                  className={"w-[230px]"}
+                />
+                <div className="bg-amber-50 bg-opacity-50 opacity-0 absolute left-0 right-0 inset-0 group-hover:opacity-30 hover:transition-all duration-300"></div>
+              </Link>
+            </li>
+            <li className="relative group">
+              <Link>
+                <Image
+                  src={instaThree}
+                  alt={"insta1.jpg"}
+                  className={"w-[230px]"}
+                />
+                <div className="bg-amber-50 bg-opacity-50 opacity-0 absolute left-0 right-0 inset-0 group-hover:opacity-30 hover:transition-all duration-300"></div>
+              </Link>
+            </li>
+            <li className="relative group">
+              <Link>
+                <Image
+                  src={instaFour}
                   alt={"insta1.jpg"}
                   className={"w-[230px]"}
                 />
@@ -52,27 +75,7 @@ const Instagram = () => {
             <li className="relative group">
               <Link>
                 <Image
-                  src={instaOne}
-                  alt={"insta1.jpg"}
-                  className={"w-[230px]"}
-                />
-                <div className="bg-amber-50 bg-opacity-50 opacity-0 absolute left-0 right-0 inset-0 group-hover:opacity-30 hover:transition-all duration-300"></div>
-              </Link>
-            </li>
-            <li className="relative group">
-              <Link>
-                <Image
-                  src={instaOne}
-                  alt={"insta1.jpg"}
-                  className={"w-[230px]"}
-                />
-                <div className="bg-amber-50 bg-opacity-50 opacity-0 absolute left-0 right-0 inset-0 group-hover:opacity-30 hover:transition-all duration-300"></div>
-              </Link>
-            </li>
-            <li className="relative group">
-              <Link>
-                <Image
-                  src={instaOne}
+                  src={instaTwo}
                   alt={"insta1.jpg"}
                   className={"w-[230px]"}
                 />
@@ -84,7 +87,17 @@ const Instagram = () => {
             <li className="relative group">
               <Link>
                 <Image
-                  src={instaOne}
+                  src={instaThree}
+                  alt={"insta1.jpg"}
+                  className={"w-[230px]"}
+                />
+                <div className="bg-amber-50 bg-opacity-50 opacity-0 absolute left-0 right-0 inset-0 group-hover:opacity-30 hover:transition-all duration-300"></div>
+              </Link>
+            </li>
+            <li className="relative group">
+              <Link>
+                <Image
+                  src={instaFour}
                   alt={"insta1.jpg"}
                   className={"w-[230px]"}
                 />
@@ -104,7 +117,7 @@ const Instagram = () => {
             <li className="relative group">
               <Link>
                 <Image
-                  src={instaOne}
+                  src={instaTwo}
                   alt={"insta1.jpg"}
                   className={"w-[230px]"}
                 />
@@ -114,7 +127,7 @@ const Instagram = () => {
             <li className="relative group">
               <Link>
                 <Image
-                  src={instaOne}
+                  src={instaThree}
                   alt={"insta1.jpg"}
                   className={"w-[230px]"}
                 />
@@ -124,17 +137,7 @@ const Instagram = () => {
             <li className="relative group">
               <Link>
                 <Image
-                  src={instaOne}
-                  alt={"insta1.jpg"}
-                  className={"w-[230px]"}
-                />
-                <div className="bg-amber-50 bg-opacity-50 opacity-0 absolute left-0 right-0 inset-0 group-hover:opacity-30 hover:transition-all duration-300"></div>
-              </Link>
-            </li>
-            <li className="relative group">
-              <Link>
-                <Image
-                  src={instaOne}
+                  src={instaFour}
                   alt={"insta1.jpg"}
                   className={"w-[230px]"}
                 />
